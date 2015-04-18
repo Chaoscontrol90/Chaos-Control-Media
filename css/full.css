@@ -1,0 +1,145 @@
+
+
+body {
+
+    //margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.full {
+    background: url(..css/gurrenlaganncustom.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	
+}
+
+
+.navbar-default{
+background-color: #000000;
+	border-color: #85fef8;
+	
+}
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #8d1cff;
+}
+.navbar-default .navbar-text {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #8d1cff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #8d1cff;
+	background-color: #85fef8;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #8d1cff;
+	background-color: #85fef8;
+}
+.navbar-default .navbar-toggle {
+	border-color: #85fef8;
+	border-width:10px;
+	border-radius:0%;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #85fef8;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+	color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+	color: #8d1cff;
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #ffffff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #8d1cff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #8d1cff;
+		background-color: #85fef8;
+	}
+}
+
+
+
+
+
+
+
+
+.container-fluid{
+background: url(gurrenlaganncustom.jpg); 
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+background-repeat:no-repeat;
+background-size:100% 100%;
+width:100%;
+height:700px;
+background-image:no-repeat;
+color:white;
+
+
+
+}
+
+
+
+                                                      
+
+
+#jumbo{
+opacity:0.7;
+text-align:center;
+background-color:black;
+margin-top:15px;
+width:100%;
+//border-radius:0;
+font-style:italic;
+color: #ffffff;
+	
+}
+
+
+
+#my{
+opacity:0.7;
+text-align:center;
+background-color:black;
+margin-top:15px;
+width:100%;
+//border-radius:0;
+font-style:italic;
+color: #ffffff;
+	
+}
+
+#contenthold{
+background-color:blue;
+
+
+}
+
+
+

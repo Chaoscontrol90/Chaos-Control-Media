@@ -1,0 +1,488 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width" />
+
+
+
+<!--jquery and css source. This is what lets buttons work.-->
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+	
+<!--bootstrap source-->
+<link href="css/bootstrap.min.css"  rel="stylesheet">
+	
+<!--css primary layout source for music/videos page-->
+<link rel="stylesheet" type="text/css" href="css/customnav.css">
+	
+		
+<!--used for the carousel-->	
+<script src="http://malsup.github.io/min/jquery.cycle2.min.js"></script>
+<script src="http://malsup.github.io/min/jquery.cycle2.carousel.min.js"></script>
+	
+	
+<!-- Custom Fonts -->
+<link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	
+	
+
+<script>
+
+</script>
+
+
+<style>
+
+
+
+
+a.one:link{color:white;}
+a.one:visited {color:white;}
+a.one:hover
+{font-size:105%;
+color:white;}
+
+
+
+
+a.two:link {color:white;}
+a.two:visited {color:white;}
+a.two:hover 
+{font-size:105%;
+color:white;
+}
+
+a.three:link {font-size:60px; color:white;}
+a.three:visited {color:white;}
+a.three:hover {font-size:180%; color:white;}
+
+
+
+
+#post-12 {
+	background-color: #4D4D94;
+}
+
+.header{
+margin:0px;
+width:100%;
+height:40%;
+text-align:center;
+font-size:2em;
+background-color:black;
+color:white;
+}
+
+
+#content{
+background-color:#1E2933}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#videos{
+background-color:blue;}
+
+#hold{
+text-align:center;
+float: none;
+margin-top:1%;
+margin: 0 auto;
+}
+
+
+#enter {
+text-align:center;
+background-color:black;
+color: white;
+opacity:1;
+padding:0%;
+
+
+}
+
+#home {
+width: 100%;
+background-image: url(http://chaoscontrolmedia.com/wp-content/uploads/2014/11/susanooedit.jpg);
+background-size: 100% 100%;
+height:500px;
+margin-bottom:1%;
+margin-top:1%;
+
+}
+
+
+
+
+
+}
+
+#content{
+background-color:black}
+
+#titleholder{
+background-color:black;
+width:100%;
+margin:0%;
+border:0%;
+padding:1%;
+padding-bottom:0%;
+padding-top:0%;
+}
+
+
+
+#title{
+text-align:center;
+background-color:black;
+color:white;
+margin:0%;
+width:100%;
+height:22%;
+opacity:1;
+padding:2%;
+
+}
+#space{
+text-align:center center;
+margin-top:7.5%;
+margin-left:0%;
+margin-right:0%;
+margin-bottom:0%;
+padding:0%;
+height:60%;
+background-color:azure;
+color:black;
+width:100%;
+opacity:0.4;}
+
+
+
+
+
+
+
+
+.col-centered{
+float: none;
+margin: 0 auto;
+}
+
+
+
+videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+/* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+}
+
+
+#leave {
+	width: 100%;
+	background-color: #33FFFF;
+}
+
+
+
+
+#home-content{
+background-color:"white";
+}
+
+
+#game{
+width:100%;}
+
+#do{
+font-family:"helvetica";
+background-color:black;
+color:white;
+opacity:0.4;
+
+}
+
+#samples{
+width:100%;
+text-align:center;
+position:center;
+margin:0%;
+margin-bottom:0%;
+margin-top:0%;
+color:black;
+}
+
+#smashpics{
+background-color: #000000;
+color:white;
+position:center;
+margin:0%;
+margin-top:0%;
+width: 100%;
+text-align:center;}
+
+
+#pageholder{
+opacity:1;
+//width:100%;
+background-color:#383838
+}
+
+
+
+#footer{
+width:100%;
+margin:0%;
+}
+
+
+
+
+
+
+</style>
+<div class="navbar-default" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+	<div class="container-slideshow">
+	
+			<!--slideshow-->
+			<div class="cycle-slideshow" data-cycle-fx=carousel data-cycle-timeout=1000 data-cycle-carousel-visible=6 data-cycle-carousel-fluid=true data-cycle-slides="div">
+				
+				<div class="col-xs-2"><img src="css/kakashi.jpg"></div>
+				<div class="col-xs-2"><img src="css/kamina.jpg"></div>
+				<div class="col-xs-2"><img src="css/emma.jpg"></div>
+				<div class="col-xs-2"><img src="css/marioxsonic.jpg"></div>
+				<div class="col-xs-2"><img src="css/ed2.jpg"></div>
+				<div class="col-xs-2"><img src="css/lilqueen.jpg"></div>
+			
+			</div> 
+			<!--closes the slideshow-->  
+
+
+			<div class="navbar-header">
+			
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+			
+				<a class="navbar-brand" href="#">Chaos Control Media</a>
+			
+			</div>
+				<!-- closes nav header-->
+		
+		
+		
+		
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+		<li><a class="one" href="home.html">Home</a></li>
+		<li><a class="one"href="Aboutme.html">About</a></li>
+		<li><a class="one" href="Music.html">Music</a></li>
+		<li><a class="one" href="#">Videos</a></li>
+		<li><a class="one" href="starfox.html">Layouts</a></li>
+		<li><a class="one" href="#">Javascript Games</a></li>
+		<li><a class="one" href="#">Layouts and photos</a></li>			
+		<li><a class="one" href="#">Favorite Links</a></li>
+		<li><a class="one" href="http://regsmoney90.wordpress.com"target="_blank">Blog</a>
+		<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+		  <li><a href="https://www.facebook.com/reggie.thraxx">Facebook</a></li>
+		  <li><a href="https://twitter.com/thraxx90">Twitter<a>
+		  email:r.noel90@yahoo.com
+          <li class="divider"></li>
+          <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li><!--end dropdown-->
+
+      </ul><!--end nav navbar nav-->
+  
+	</div><!-- /.navbar-collapse -->
+
+	</div>
+<!--end navbar-->
+
+
+
+
+
+
+</head>
+
+<body>
+
+<div class="col-md-12" id="post-12" style="text-align:center";>
+
+
+
+			
+
+
+	
+	
+	
+
+	<div class="col-md-12" id="enter" style="text-align:center; margin-top:1%;">
+	
+	
+
+	
+	
+		<h3><a class="two" href="#">Web Development. Web Design. Graphic Design. Music Composition. Video Editing. Writing.</h3></a>
+		
+			
+		
+		
+		<h3><a class="two" href="#">"What were once scattered points have finally become a connected line".</h3></a>
+		
+		<h1><a class="three" href="#">Enter: Chaos Control!</h1></a>
+		
+		
+		
+		
+		<div class="col-md-12" id="home">
+		</div>
+	
+		
+		
+		
+		</div>
+	
+		
+		
+		
+	
+
+		
+	
+	
+	
+
+
+
+
+	
+
+
+
+
+
+
+
+
+<div class="col-md-12" id="content">
+
+
+
+	<div class="col-md-6">
+	<h2>Music</h2>
+	Revengeance(Chaos Control Media)-Evil Arrives
+	<iframe width="100%" height="288" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/174318803&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+	</div>
+	
+	
+	
+	
+	<div class="col-md-6">
+	<h2>Videos</h2>
+	Reform of Obito
+	
+	
+			<div class="col-md-12">
+			<iframe src="http://player.vimeo.com/video/117648098" frameborder="0" width="100%;" height="288" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+			
+			</div>
+			
+
+
+
+
+
+
+	<div class="col-md-6">
+	<h2>Layouts</h2>
+
+		<div class="col-md-12">
+
+			<div class="col-md-9 col-centered">
+			Poacht Website theme
+			<img class="img-responsive" src= "http://chaoscontrolmedia.com/wp-content/uploads/2015/03/Poachtsite.jpg" size:100%; alt="">
+			</div>
+
+			<div class="col-md-9 col-centered">
+			Star Fox Mercernaries
+			<img class="img-responsive" src= "http://chaoscontrolmedia.com/wp-content/uploads/2015/04/starfoxlayout.jpg" size:100%; alt="">
+			</div>
+
+		</div>
+
+
+	</div>
+
+
+
+	<div class="col-md-6">
+	<h2>Blog</h2>
+	<a href="https://regsmoney90.wordpress.com/"target="_blank">Chaos Control: The New Dimension</a>
+	<img class="img-responsive"  src="http://chaoscontrolmedia.com/wp-content/uploads/2015/03/chaosblog.jpg">
+
+	</div>
+	
+	
+	
+	
+	
+	
+	
+</div>	
+
+
+<div class="col-md-12" style="background-color:black;">
+2015 Chaos Control Media. All Rights Reserved</div>
+
+
+
+
+
+
+			
+			
+			
+			
+			
+			
+			
+
+
+
+
+</body>
+
+
+
+
+
+</html>
+
+

@@ -1,0 +1,130 @@
+body {
+	//height:100%;
+	width:100%;
+	background-image: url(Musicpic.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+
+.container {
+	//position:absolute;
+	background-image: url(Musicpic.jpg);
+	height:2000px;
+	width:100%;
+	padding:5px;
+	background-size:100%;
+	background-repeat: no-repeat;
+	background-position:center-top;
+	
+	
+	
+	
+}
+.mainnav {
+	position:absolute;
+	width:98%;
+	color:white;
+	background-color:black;
+	font-family:helvetica;
+	opacity:0.5;
+	//padding:5px;
+	
+}
+
+
+
+
+
+
+
+
+.head{
+	
+    position:absolute;
+    background-color:black;
+	color:white;
+	//margin-left:auto;
+	//margin-right:auto;
+    width:98%;
+    top:10%;
+	font-family:helvetica;
+	font-style:italic;
+	opacity:0.5;
+	}
+	
+.description{
+	position:absolute;
+    background-color:black;
+	color:white;
+	//margin-left:auto;
+	//margin-right:auto;
+    width:98%;
+    top:80%;
+	font-family:helvetica;
+	font-style:italic;
+	opacity:0.5;
+	padding:5px;
+	font-size:18px;
+	text-align:center;
+}
+
+
+	
+	
+	
+
+}
+.content {
+	position:absolute;
+	float:left;
+	top:30%;
+	width:auto;
+	height:auto;
+	
+	opacity:0.7;
+	background-color: azure;
+	font-family:"helvetica";
+	font-size: 18px;
+	font-style: italic;
+	line-height: normal;
+	color: black;
+}
+
+
+
+
+
+.content2 {
+	position:absolute;
+	float:right;
+	//top:20%;
+	left:50%;
+	width:auto%;
+	bottom:50%;
+	height:auto;
+	opacity:0.7;
+	background-color: #F0F0F0;
+	font-family: "helvetica";
+	font-size: 18px;
+	font-style: italic;
+	line-height: normal;
+	color: black;
+	}
+	
+	
+	
+	
+	
+	
+.videos{
+color:green;}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

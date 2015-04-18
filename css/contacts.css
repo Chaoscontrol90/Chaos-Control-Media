@@ -1,0 +1,101 @@
+body {
+	//height:80%;
+	width:100%;
+	background-image: url(contactpic.jpg);
+	background-size:110%;
+	background-repeat:no-repeat;
+}
+		
+
+.container {
+	//position:relative;
+	width:100%;
+	//height:650px;
+	//height:90%;
+	//padding:25px;
+	background-color:black;
+	background-image: url(contactpic.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+	}
+	
+	
+	
+.mainnav {
+
+	position:absolute;
+	width:100%;
+	color:white;
+	background-color:black;
+	font-family:helvetica;
+	opacity:0.5;
+	padding:5px;
+	}
+	
+	
+	
+.head{
+	
+    position:absolute;
+    background-color:black;
+	color:white;
+	//margin-left:auto;
+	//margin-right:auto;
+    width:100%;
+    top:15%;
+	font-family:helvetica;
+	font-style:italic;
+	opacity:0.5;
+	padding:5px;
+
+}
+	
+.content{
+	position:absolute;
+	//left:25%;
+	top:50%;
+	width:100%;
+	height:30%;
+	opacity:0.5;
+	background-color:azure;
+	font-family: "helvetica";
+	font-size: 18px;
+	font-style: italic;
+	//line-height: normal;
+	color: black;
+}
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
